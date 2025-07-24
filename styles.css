@@ -1,0 +1,11 @@
+.Header-Container {
+    
+    display: flex;
+    border: 1px black;
+    font: roboto;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+
+}
