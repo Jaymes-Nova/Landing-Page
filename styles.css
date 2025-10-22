@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .Header-Container {
     
     display: flex;
@@ -7,5 +12,31 @@
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
+    padding: 8px;
+    
 
+}
+.headerLogo {
+    
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+.hLink-One, .hLink-Two, .hLink-Three {
+
+    font-size: 18px;
+    color: #e5e7eb
+
+}
+
+.containerTwo{
+
+    display: flex;
+    background-color: #1f2937;
+
+}
+
+h1 {
+    color: #f9faf8;
 }
