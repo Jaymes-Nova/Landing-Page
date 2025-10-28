@@ -46,7 +46,25 @@
     display: flex;
 }
 
-h1, p {
+.twoLeft {
+
+    justify-content: left;
+}
+
+h1 {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb ;
+}
+
+.signUp {
+    background-color: #3882f6;
+    text-align: left;
+    
 }
 
