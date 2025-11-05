@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 }
 
-.Header-Container {
+.containerOne {
     
     display: flex;
     border: 1px black;
@@ -133,4 +133,36 @@ h1 {
     font-weight: 900;
     color: #1f2937
     
+}
+
+.containerFive {
+
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    
+}
+
+.actionBox {
+
+    display: flex;
+    gap: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3882f6;
+}
+
+.leftContent {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.rightContent {
+
+    padding-top: 10px;
+    justify-content: right;
 }
