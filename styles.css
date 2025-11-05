@@ -1,6 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+.landingPage {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .Header-Container {
@@ -70,14 +78,15 @@ h1 {
 
 .containerThree {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin: 20px;
     
 }
 
 .threeTop {
     display: flex;
     justify-content: center;
-    padding: 32px;
+    padding-bottom: 32px;
 }
 
 .threeBottom {
@@ -93,5 +102,35 @@ h1 {
 
         border: 2px solid #3882f6;
         border-radius: 15px;
-        object-fit: cover;  
+        object-fit: cover;
+        height: 200px;  
+        width: 200px;
+}
+
+.containerFour {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    background-color: #e5e7eb;
+    
+}
+
+.quote {
+
+    display: flex;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937
+
+}
+
+.quoted {
+
+    display: flex;
+    justify-content: right;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+    
 }
